@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	background-color: rgb(252,250,249);
+	font-family: 'Bitter', serif;
+	color: rgb(252,250,249);
+}
+
+.container {
+	margin: 0 auto;
+	width: 700px;
+	background-color: rgb(153,153,153);
+	border-radius: 2%;
+	line-height: 30px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+
+header {
+	padding: 30px;
+	background-image: url(https://preview.ibb.co/nwaiSw/pexels_photo_255377.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-size: 38px;
+	font-style: italic;
+}
+
+.welcome {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+section {
+	padding: 0 20%;
+}
+
+
+.about h2 {
+	margin-top: 60px;
+	padding: 10px;
+	font-size: 28px;
+	text-align: center;
+}
+
+
+.interests h2 {
+	margin-top: 40px;
+	text-align: center;
+}
+
+footer {
+	margin-top: 60px;
+	padding: 30px;
+	background-color: rgb(153,153,153);
+}
+
+footer p {
+	text-align: center;
+	color: rgb(252,250,249);
+}
+
+footer a {
+	text-decoration: none;
+	font-weight: bold;
+}
