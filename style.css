@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	background-color: rgb(252,250,249);
 	font-family: 'Bitter', serif;
-	color: rgb(252,250,249);
+
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
 	background-color: rgb(153,153,153);
 	border-radius: 2%;
 	line-height: 30px;
-	box-shadow: 1px 1px 1px 1px black;
+	box-shadow: 1px 1px 1px 2px grey;
 }
 
 
@@ -27,13 +27,18 @@ header {
 }
 
 .welcome {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.welcome p {
+	padding: 10px;
 }
 
 h1 {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 48px;
+	padding: 10px;
 }
 
 section {
@@ -48,6 +53,9 @@ section {
 	text-align: center;
 }
 
+.interests {
+	padding-bottom: 10px;
+}
 
 .interests h2 {
 	margin-top: 40px;
@@ -62,7 +70,6 @@ footer {
 
 footer p {
 	text-align: center;
-	color: rgb(252,250,249);
 }
 
 footer a {
